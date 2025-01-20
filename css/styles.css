@@ -105,8 +105,48 @@ body {
 
 .container {
     width: 100%;
-    padding: 0 132px;
+    padding: 0 20px;
     margin: 0 auto;
 
     outline: 1px solid blue;
+}
+
+/* Mobile version-------------------------------------------------------------------- */
+
+
+/* About---------------------- */
+
+.about {
+    max-width: 375px;
+}
+
+.about-title {
+    padding-bottom: 40px;
+
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 125%;
+    letter-spacing: -0.02em;
+
+    color: #1e2827;
+}
+
+.about-list {
+    padding-bottom: 40px;
+}
+
+.about-item:not(:last-child) {
+    padding-bottom: 20px;
+}
+
+.about-text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    color: #141414;
+}
+
+.about-img {
+    outline: 1px solid red;
 }
